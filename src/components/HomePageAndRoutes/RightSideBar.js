@@ -10,7 +10,7 @@ const RightSideBar = props => {
           <source src={nerdyMP4} type="video/mp4" />
         </video>
 
-        <h1 className="hoverYellow pulse-grow">Word Nerds</h1>
+        <h1 className="hoverYellow pulse-grow">Storyverse</h1>
       </div>
 
       <div className="HomePageAndRoutes-sentence">

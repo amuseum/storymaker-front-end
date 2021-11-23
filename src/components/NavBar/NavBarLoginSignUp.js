@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom'
 class NavBar extends Component {
   constructor(props) {
     super(props)
-  this.state = { activeItem: 'Word Nerds' }
+  this.state = { activeItem: 'Storyverse' }
 }
 
   handleItemClick = (event, { name }) => this.setState({ activeItem: name })
@@ -23,8 +23,8 @@ class NavBar extends Component {
 
           <Menu.Item
             as={Link} to="/"
-            name='Word Nerds'
-            active={activeItem === 'Word Nerds'}
+            name='Storyverse'
+            active={activeItem === 'Storyverse'}
             color={'purple'}
             onClick={this.handleItemClick}
           />
