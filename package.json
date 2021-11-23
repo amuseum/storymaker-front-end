@@ -34,7 +34,7 @@
     "cypress:open": "cypress open"
   },
   "engines": {
-    "node": "10.10.0",
+    "node": "14.18.0",
     "npm": "6.4.1"
   },
   "browserslist": [
