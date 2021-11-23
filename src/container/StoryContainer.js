@@ -300,7 +300,7 @@ class StoryContainer extends Component {
             <div>
 
               <NavBar
-                title="Word Nerds"
+                title="Storyverse"
                 current_user={this.state.user.name}
                 logout={this.logout}
                 location={this.props.location}
