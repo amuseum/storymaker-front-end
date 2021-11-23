@@ -21,22 +21,18 @@ class LoginSignUp extends React.Component {
                 <source src={nerdyMP4} type="video/mp4" />
               </video>
 
-              <h1 className="hoverYellow pulse-grow">Word Nerds</h1>
+              <h1 className="hoverYellow pulse-grow">Storyverse</h1>
             </div>
 
             <div className="aboutWordNerds">
               <Segment raised>
                 <p>
-                  Word Nerds is a short story generator that creates a unique,
-                  500-word short story with the click of a button.
+                  Create a random story to accompany your NFT
                 </p>
                 <p>
-                  Like Mad Libs, or like an exquisite corpse, your story won't
-                  always make logical sense, but it'll always be entertaining.
-                  And it'll be a decent first draft, giving you plenty of text
-                  to edit.
+                  Remember Mad-Libs?
                 </p>
-                <p>Everyone has a story to tell. Start telling yours today!</p>
+                <p>Send a silly story!</p>
               </Segment>
             </div>
           </Grid.Column>
